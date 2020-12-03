@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en" style="background-image: url(images/bats.gif)">
+<head>
+	<meta charset="utf-8" />
+	<title>Helloween Store</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script type="text/javascript" src="js/jquery-1.10.1.js" ></script>
+	<script type="text/javascript" src="js/gpaCalculate.js" ></script>
+</head>
+
+<body style="margin-bottom: 20px;">
+    <header style="padding: 10px 0">
+        <h1 class="header1" >The AUM Online</h1>
+    </header>
+    <div>
+    
+        <ul style="height: 60px;background-color: black;list-style: none;display: flex;flex-direction: row;justify-content: space-around;align-items: center;margin-top: 0;">
+            <li class="background1 zaq"><a href="index.html" class="background2" style="color: white;font-weight: bold;">Home</a></li>
+            <li class="background1 zaq"><a href="computerScience.html" class="background2" style="color: white;font-weight: bold;">Computer science</a></li>
+            <li class="background1 zaq"><a href="form.html" class="background2" style="color: white;font-weight: bold;">Teaching Assistant</a></li>
+            <li class="background1 zaq"><a href="gpa.html" class="background2" style="color: white;font-weight: bold;">GPA calculate</a></li>
+        	
+        </ul>
+       
+    </div>
+    
+     <main style="height:530px">
+        <div style="float: left;height: 530px;width: 200px"><nav>
+            <ul class=leftsec>
+                <li class="zli"><a href="#" style="color: black">AUM</a></li>
+                <li class="zli"><a href="#" style="color: black">Admissions</a></li>
+                <li class="zli"><a href="#" style="color: black">Teacher</a></li>
+                <li class="zli"><a href="#" style="color: black">Student Affairs</a></li>
+            </ul>
+        </nav>
+        </div>
+    
+    	<div>
+    		<h3 style="padding-left: 40px;margin-bottom: 20px;">GPA calculate</h3>
+			<div id="divmg">
+				<p class="name">  
+					<button id="add">Add</button>  
+					<button id="delete">Delete</button>
+					<button id="calculate">Calculate</button>
+				</p>
+				<div id="subjects">
+					<p class="name">
+						
+				  		<label class="lab-1">Letter Grade</label>
+				    	<input type="text" name="grade" id="asd"/> 
+				    	<label class="lab-1">Credit Hours</label>
+				    	<input type="text" name="hours" /> 
+					</p>  
+					<p class="name">  
+						
+						<label class="lab-1">Letter Grade</label>
+				    	<input type="text" name="grade" /> 
+				    	<label class="lab-1">Credit Hours</label>
+				    	<input type="text" name="hours" /> 
+					</p>
+				</div>
+				<p class="name">  
+					<span class="span-3">Your GPA:</span>
+			    	<input type="text" id="gpa" /> 
+				</p>
+				
+			</div>
+    	</div>
+         
+        </main>
+    <footer style="height: 40px;display: flex;align-items: center;justify-content: center">
+            &copy; Yang Yuxin
+    </footer>
+	
+</body>
+</html>
